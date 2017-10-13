@@ -1,0 +1,40 @@
+baseUrl = "https://igordonxiao.github.io/"
+languageCode = "en-us"
+Title = "Gordon的博客"
+# Copyright notice. This is displayer in the footer.
+#copyright = "&copy; Copyright "
+theme = "hugo_theme_pickles"
+
+[params]
+  paginate = 10
+  # Social accounts. Link to these accounts are displayed in the header and
+  # footer
+  twitter = "igordonxiao"
+  #facebook = "Your Facebook username"
+  #instagram = "Your Instagram username"
+  #googleplus = "Your Google+ account URL" # https://plus.google.com/u/0/xxxxxx
+  github = "igordonxiao"
+  #npm = "Your npm username"
+  #codepen = "Your CodePen username"
+  #dribbble = "Your Dribbble username"
+  #fivehundredpx = "Your 500px username" # 500px
+  #flickr = "Your Flickr username"
+  #pinterest = "Your Pinterest username"
+  #tumblr = "Your Tumblr username"
+  #vimeo = "Your Vimeo username"
+  #youtube = "Your YouTube username"
+  linkedin = "igordonxiao"
+  # Disqus shortname
+  #disqus = ""
+  # Google Analytics API key.
+  #ga_api_key = "Your Google Analytics tracking id"
+  author = "Gordon"
+  #authorwebsite = ""
+  avatar = ""
+  contact = ""
+  #bio = "Your short bio"
+  # Short subtitle/tagline. This is displayed in the header.
+  subtitle = "编程碎碎念..."
+  # Logo image. This is displayed ogp image.
+  logo = "/author/avatar.jpg"
+  favicon = "/author/avatar.jpg"
