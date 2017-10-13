@@ -2,8 +2,6 @@
 title = "About"
 date = "2015-05-02"
 layout = "about"
-menu = "main"
-weight = 2
 +++
 
 

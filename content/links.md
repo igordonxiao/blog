@@ -1,9 +1,7 @@
 +++
 title = "Links"
-date = "2015-05-06"
+date = "2015-05-02"
 layout = "about"
-menu = "main"
-weight = 3
 +++
 
 * [Kyle Ding](https://elijahding.github.io/)

@@ -23,15 +23,26 @@ copyright = ""
   identifier = "home"
   url = "/"
 
+[[menu.main]]
+  name = "About"
+  weight = 2
+  identifier = "about"
+  url = "/about"
+
+[[menu.main]]
+  name = "Links"
+  weight = 3
+  identifier = "links"
+  url = "/links"
 
 # Add your own params here
 [params]
   author = "Gordon"
-  avatar = "/author/avatar.jpg"
+  avatar = "/avatar.png"
   seotitle = "Gordon的博客"
   subtitle = "~ 编程碎碎念 ~"
   description = "func funy()"
-  paginate = 10
+  paginate = 6
 
   # Choose your social networks
   email = "igordonxiao@gmail.com"
