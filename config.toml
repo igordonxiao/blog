@@ -1,6 +1,6 @@
 baseUrl = "https://igordonxiao.github.io/"
 languageCode = "en-us"
-Title = "➜ gordon-blog git:(master) ✗ "
+Title = "➜ gordon-blog git:(dev) ✗ "
 # Copyright notice. This is displayer in the footer.
 #copyright = "&copy; Copyright "
 theme = "hugo_theme_pickles"
