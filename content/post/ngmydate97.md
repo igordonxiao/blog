@@ -10,7 +10,7 @@ tags = [
 date = "2015-08-17 16:41:44"
 +++
 
-```
+```javascript
 angular.module('NG', []).directive('ngdatepicker', function () {
     return {
         restrict: 'A',
@@ -34,7 +34,8 @@ angular.module('NG', []).directive('ngdatepicker', function () {
 });
 
 ```
+
 使用时需依赖jQuery及My97DatePicker，用法：
-```
+```html
 <input ngdatepicker type="text"/>
 ```

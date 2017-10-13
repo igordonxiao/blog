@@ -10,7 +10,7 @@ tags = [
 date = "2017-04-12 18:24:18"
 +++
 
-```
+```java
 return new ResponseEntity<>(FileUtils.readFileToByteArray(new File(attach.getPath())), headers, HttpStatus.CREATED);
 ```
 

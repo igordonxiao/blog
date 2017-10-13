@@ -1,4 +1,4 @@
-Personal blog code (based on Hugo and pickles theme)      
+Personal blog code (based on Hugo and hugo-nuo theme)      
 http://igordonxiao.github.io
 
 ### deploy
