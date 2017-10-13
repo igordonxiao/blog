@@ -1,6 +1,6 @@
 baseUrl = "https://igordonxiao.github.io/"
 languageCode = "en-us"
-Title = "Gordon的博客"
+Title = "➜ gordon-blog git:(master) ✗ "
 # Copyright notice. This is displayer in the footer.
 #copyright = "&copy; Copyright "
 theme = "hugo_theme_pickles"
@@ -28,7 +28,7 @@ theme = "hugo_theme_pickles"
   #disqus = ""
   # Google Analytics API key.
   #ga_api_key = "Your Google Analytics tracking id"
-  author = "Gordon"
+  author = ""
   #authorwebsite = ""
   avatar = ""
   contact = ""
