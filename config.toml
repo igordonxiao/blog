@@ -18,19 +18,19 @@ copyright = ""
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
-  name = "Home"
+  name = "HOME"
   weight = 1
   identifier = "home"
   url = "/"
 
 [[menu.main]]
-  name = "About"
+  name = "ABOUT"
   weight = 2
   identifier = "about"
   url = "/about"
 
 [[menu.main]]
-  name = "Links"
+  name = "LINKS"
   weight = 3
   identifier = "links"
   url = "/links"
@@ -39,9 +39,9 @@ copyright = ""
 [params]
   author = "Gordon"
   avatar = "/avatar.png"
-  seotitle = "Gordon的博客"
-  subtitle = "~ 编程碎碎念 ~"
-  description = "func funy()"
+  seotitle = "Gordon Blog"
+  subtitle = "~ 程序小法师 ~"
+  description = "Gordon programmer Golang Python Java Web AI Big Data"
   paginate = 6
 
   # Choose your social networks

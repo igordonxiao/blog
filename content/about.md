@@ -1,11 +1,9 @@
 +++
-title = "About"
+title = "ABOUT"
 date = "2015-05-02"
 layout = "about"
 +++
 
-
-## 程序猿一枚
 #### 写写代码，看看世界。
 #### 改改Bug，打打怪兽。
 
