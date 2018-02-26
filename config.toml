@@ -1,100 +1,40 @@
-baseURL = "https://igordonxiao.github.io/"
-languageCode = "en"
-title = "➜ gordon-blog git:(dev) ✗ "
-theme = "hugo-nuo"
-enableRobotsTXT = true
-pygmentsuseclasses = true
-PygmentsCodeFences = true
-canonifyurls = true
-
-# Disqus Username
-disqusShortname = ""
-
-# Google Analytics UA number
+baseurl = "https://igordonxiao.github.io/"
+languageCode = "zh-cn"
+title = "Gordon's Blog"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/igordonxiao\">Gordon</a>"
+# disqusShortname = "shortname"
 googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
 
-# Copyright of your post
-copyright = ""
 
-# Initial site menu, you can extend menu with content.
-[[menu.main]]
-  name = "HOME"
-  weight = 1
-  identifier = "home"
-  url = "/"
+[params.assets]
+customCSS = ["css/custom.css"]
 
-[[menu.main]]
-  name = "ABOUT"
-  weight = 2
-  identifier = "about"
-  url = "/about"
+[params.info]
+#adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by Hugo and Kiss below Copyright section
+related = true # Includes related articles
 
-[[menu.main]]
-  name = "LINKS"
-  weight = 3
-  identifier = "links"
-  url = "/links"
 
-# Add your own params here
-[params]
-  author = "Gordon"
-  avatar = "/avatar.png"
-  seotitle = "Gordon Blog"
-  subtitle = "~ 程序小法师 ~"
-  description = "Gordon programmer Golang Python Java Web AI Big Data"
-  paginate = 6
+[params.opengraph.twitter]
+page = "igordonxiao" # Twitter Page username. If not set, params.social.twitter will be used.
 
-  # Choose your social networks
-  email = "igordonxiao@gmail.com"
-  github = "igordonxiao"
-  twitter = "igordonxiao"
-  linkedin = "igordonxiao"
-  weibo = ""
-  wechat= "" # Replace with your wechat qrcode image
-  # facebook = "facebook_username"
-  # google = "googlplus_id_number"
-  # instagram = "instagram_username"
-  # youtube = "youtube_username"
-  # vimeo = "vimeo_username"
-  # medium = "medium_username"
-  # quora = "quora_username"
-  # pinterest = "pinterest_username"
-  # dribbble = "dribbble_username"
-  # behance = "behance_username"
-  # jsfiddle = "jsfiddle_username"
-  # codepen = "codepen_username"
-  # zhihu = "zhihu_username"
-  # douban = "douban_username"
-  # bilibili = "bilibili_id_number"
+[params.social]
 
-  # Changyan Comments (China Only)
-  changyan = false
-  changyanId = ""
-  changyanConf = ""
+twitter = "igordonxiao"
+github = "igordonxiao"
+email = "igordonxiao@gmail.com"
+linkedin = "igordonxiao"
+instagram = ""
+codepen = ""
 
-  # Google Webmaster
-  # https://www.google.com/webmasters/
-  googleSiteVerification = ""
+[taxonomies]
+tag ="tags"
 
-  # Bing Webmaster
-  # https://www.bing.com/toolbox/webmaster/
-  msValidate = ""
-
-  # Baidu Webmaster (China Only)
-  # https://zhanzhang.baidu.com/
-  # baiduSiteVerification = "MZ23SPxxfa"
-
-  # Sogou Webmaster (China Only)
-  # http://zhanzhang.sogou.com/
-  # sogouSiteVerification = "m2jktMQTZm"
-
-  # 360 Webmaster (China Only)
-  # http://zhanzhang.so.com/
-  # soSiteVerification = "b7ab3b4c2edbc856642004d1b8c27a91"
-
-  # Baidu Tongji (China Only)
-  # https://tongji.baidu.com/
-  # baiduTongji = "e21dc1e8a592188271b615159dc88af7"
-
-  # ICP Number (China Only)
-  # ICP = "苏ICP备16005986号-2"
+[blackfriday]
+hrefTargetBlank = true

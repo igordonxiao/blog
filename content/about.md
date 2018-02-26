@@ -1,14 +1,6 @@
 +++
-title = "ABOUT"
-date = "2015-05-02"
-layout = "about"
+title = "关于我"
+description = ""
 +++
 
-#### 写写代码，看看世界。
-#### 改改Bug，打打怪兽。
-
-* [GitHub](https://github.com/gohugoio)
-* [Twitter](https://twitter.com/igordonxiao)
-* [Linkedin](https://www.linkedin.com/in/igordonxiao)
-
-
+#### 程序小法师
