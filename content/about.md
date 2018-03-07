@@ -11,5 +11,5 @@ description = ""
 
 熟练使用`Java`及`Python`编程言语，正在学习函数式风格编程及`Kotlin`语言。 
 
-使用Bootstrap等封装了一套贴近业务进行快速开发的前端框架[Dracular](https://doc4dracular.herokuapp.com)。     
+使用`jQuery`及`Bootstrap`等封装了一套贴近业务进行快速开发的前端框架[Dracular](https://doc4dracular.herokuapp.com)。     
 `Go`语言开源博客[iNote](https://github.com/igordonxiao/inote)。  
