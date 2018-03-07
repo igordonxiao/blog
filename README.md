@@ -1,4 +1,4 @@
-Personal blog code (based on Hugo and hugo-nuo theme)      
+Personal blog code
 http://igordonxiao.github.io
 
 ### deploy
