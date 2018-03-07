@@ -7,27 +7,27 @@ categories = [
 tags = [
     "PostgreSQL",
 ]
-date = "2018-03-07 13:23:23"
+date = "2018-03-06 10:23:23"
 +++
 
-## PG-DAO
 > A simple Data Access tool which wrapped [apache commons-dbutils](http://commons.apache.org/proper/commons-dbutils/) for PostgreSQL.
 
 [pg-dao github](https://github.com/igordonxiao/pg-dao)
 
-## ÌØĞÔ
-* Ö§³ÖÊµÌåID×ÔÔö³¤
-* Âß¼­É¾³ı
-* ×Ô¶¯Î¬»¤`createdDate`¡¢`updatedDate`ºÍ`delFlag`×Ö¶Î
-* ³£ÓÃ`CRUD`²Ù×÷
-* Ö§³ÖÌõ¼ş²éÑ¯¼°·ÖÒ³
+## ç‰¹æ€§
+* æ”¯æŒå®ä½“IDè‡ªå¢é•¿
+* é€»è¾‘åˆ é™¤
+* è‡ªåŠ¨ç»´æŠ¤`createdDate`ã€`updatedDate`å’Œ`delFlag`å­—æ®µ
+* å¸¸ç”¨`CRUD`æ“ä½œ
+* æ”¯æŒæ¡ä»¶æŸ¥è¯¢åŠåˆ†é¡µ
 
-## Ê¹ÓÃ·½Ê½
-1. ÔÚ`Conf.java`ÎÄ¼şÖĞÅäÖÃPostgreSQLÁ¬½ÓĞÅÏ¢
+## ä½¿ç”¨æ–¹å¼    
+
+* 1. åœ¨`Conf.java`æ–‡ä»¶ä¸­é…ç½®PostgreSQLè¿æ¥ä¿¡æ¯
 
 ```java
 
-    //  Êı¾İ¿âÁ¬½ÓÅäÖÃ
+    //  æ•°æ®åº“è¿æ¥é…ç½®
     /**
      * DB URL
      */
@@ -46,11 +46,13 @@ date = "2018-03-07 13:23:23"
     String DB_PASSWORD = "[password]";
 ```
 
-2. Ê¹ÓÃÊ¾Àı
+        
 
-ÊµÌåÀà£º`User.java`
+* 2. ä½¿ç”¨ç¤ºä¾‹
 
-> ÓÃ»§×Ô¶¨ÒåµÄÊµÌå±ØĞë¼Ì³Ğ×Ô`AbstractModel`
+å®ä½“ç±»ï¼š`User.java`
+
+ç”¨æˆ·è‡ªå®šä¹‰çš„å®ä½“å¿…é¡»ç»§æ‰¿è‡ª`AbstractModel`
 
 ```java
 
@@ -81,7 +83,7 @@ public class User extends AbstractModel {
 }
 ```
 
-2.1 ²åÈë¶ÔÏó
+2.1 æ’å…¥å¯¹è±¡
 ```java
 
     @Test
@@ -94,7 +96,7 @@ public class User extends AbstractModel {
     }
 ```
 
-2.2 ¸ù¾İID²éÑ¯¶ÔÏó
+2.2 æ ¹æ®IDæŸ¥è¯¢å¯¹è±¡
 
 ```java
 
@@ -106,7 +108,7 @@ public class User extends AbstractModel {
     }
 ```
 
-2.3 ĞŞ¸Ä¶ÔÏó
+2.3 ä¿®æ”¹å¯¹è±¡
 ```java
 
     @Test
@@ -118,7 +120,7 @@ public class User extends AbstractModel {
     }
 ```
 
-2.4 É¾³ı¶ÔÏó
+2.4 åˆ é™¤å¯¹è±¡
 ```java
 
     @Test
@@ -129,7 +131,7 @@ public class User extends AbstractModel {
     }
 ```
 
-2.5 ·ÖÒ³¼°Ìõ¼ş²éÑ¯
+2.5 åˆ†é¡µåŠæ¡ä»¶æŸ¥è¯¢
 ```java
 
     @Test
