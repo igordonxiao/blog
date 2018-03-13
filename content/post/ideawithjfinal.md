@@ -1,6 +1,6 @@
 +++
 title = "用Jetty在IDEA中开发基于Jfinal的项目"
-description = ""
+description = "用Jetty在IDEA中开发基于Jfinal的项目"
 categories = [
     "Web"
 ]

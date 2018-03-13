@@ -1,6 +1,6 @@
 +++
 title = "使用nginx-rtmp-module搭建流媒体服务器"
-description = ""
+description = "使用nginx-rtmp-module搭建流媒体服务器"
 categories = [
     "Server"
 ]

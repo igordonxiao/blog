@@ -1,6 +1,6 @@
 +++
 title = "阿里云ubuntu 16.04.2 LTS安装Rancher稳定版本步骤"
-description = ""
+description = "阿里云ubuntu 16.04.2 LTS安装Rancher稳定版本步骤"
 categories = [
     "MicroService"
 ]

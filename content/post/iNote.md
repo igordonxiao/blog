@@ -1,6 +1,6 @@
 +++
 title = "iNote单页博客编译安装方式"
-description = ""
+description = "iNote是一款开源，免费，简洁的单页博客"
 categories = [
     "Web"
 ]

@@ -1,6 +1,6 @@
 +++
 title = "Konga API配置"
-description = ""
+description = "Konga API配置"
 categories = [
     "Gateway"
 ]

@@ -1,6 +1,6 @@
 +++
 title = "Nginx配置Wordpress"
-description = ""
+description = "Nginx配置Wordpress"
 categories = [
     "Web"
 ]

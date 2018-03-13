@@ -1,6 +1,6 @@
 +++
 title = "PG-DAO"
-description = ""
+description = "A simple Data Access tool which wrapped apache commons-dbutilsfor PostgreSQL."
 categories = [
     "Java"
 ]

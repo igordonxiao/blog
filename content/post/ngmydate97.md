@@ -1,6 +1,6 @@
 +++
 title = "Angular directive for My97Date"
-description = ""
+description = "Angular directive for My97Date"
 categories = [
     "Web"
 ]

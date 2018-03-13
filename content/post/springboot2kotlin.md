@@ -1,6 +1,6 @@
 +++
-title = "Spring boot 2 Kotlin WebFlux DSL"
-description = ""
+title = "Spring boot 2 Kotlin DSL WebFlux"
+description = "Spring Boot 2 + Kotlin DSL + Flux Web"
 categories = [
     "Web"
 ]
@@ -9,7 +9,7 @@ tags = [
 ]
 date = "2018-03-02 10:23:23"
 +++
-> Spring Boot + Kotlin + Flux Web + Kotlin DSL
+> Spring Boot 2 + Kotlin DSL + Flux Web
 
 `SpringbootdemoApplication.kt`
 

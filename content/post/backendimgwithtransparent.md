@@ -1,6 +1,6 @@
 +++
 title = "给图片加上一个深色透明遮罩效果"
-description = ""
+description = "使用CSS3给图片加上一个深色透明遮罩效果"
 categories = [
     "Web"
 ]

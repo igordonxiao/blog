@@ -1,6 +1,6 @@
 +++
 title = "使用Vagrant建立Django独立开发环境"
-description = ""
+description = "使用Vagrant建立Django独立开发环境"
 categories = [
     "Python"
 ]

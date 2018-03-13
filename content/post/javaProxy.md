@@ -1,6 +1,6 @@
 +++
 title = "Java中的Proxy"
-description = ""
+description = "Java中的Proxy"
 categories = [
     "Web"
 ]

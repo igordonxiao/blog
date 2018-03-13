@@ -1,6 +1,6 @@
 +++
 title = "使用SpiderKeeper管理爬虫定时任务"
-description = ""
+description = "使用SpiderKeeper管理爬虫定时任务"
 categories = [
     "Python"
 ]

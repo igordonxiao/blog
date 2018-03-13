@@ -1,6 +1,6 @@
 +++
 title = "使用Spring MVC ResponseEntity进行文件下载时需注意HttpStatus的设置"
-description = ""
+description = "使用Spring MVC ResponseEntity进行文件下载时需注意HttpStatus的设置"
 categories = [
     "Web"
 ]
