@@ -26,7 +26,7 @@ date = "2018-03-12 10:23:23"
 * Support multi development `env` 
 
 ## Language
-- [x] Java (Current Supported)
+- [x] Java (Currently Supported)
 - [ ] Kotlin
 - [ ] Python
 - [ ] Go
