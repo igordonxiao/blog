@@ -1,61 +1,58 @@
-baseurl         = "/"
-theme           = "casper-two"
-languageCode    = "en-US"
-disqusShortname = ""
-paginate        = 6
-#SectionPagesMenu = "main"
+Title =  "Gordon Blog"
+LanguageCode = "zh-CN"
+BaseUrl = "https://igordonxiao.github.io/"
+Theme =  "next"
+MetaDataFormat =  "yaml"
+CanonifyUrls =  true
+BuildDrafts =  false
+PaginatePath =  "p"
+Paginate = 8
+DisablePathToLower =  false
+HasCJKLanguage = true
+PreserveTaxonomyNames = false
+UglyUrls = false
+PygmentsStyle = "monokai"
+PygmentsUseClasses = true
+DefaultContentLanguage = "zh"
 
-[params]
-  title       = "Gordon's Blog"
-  subtitle    = "Dev everywhere..."
+[Params]
+  Introduce = "Web Developer"
+  Description = "Gordon | 博客 | 软件 | 架构 | Java | Kotlin| Python｜Spring"
+  Keywords =  "Gordon Java Kotlin Python Docker Spring"
+  Subtitle = "Dev everywhere..."
+  Imglogo = "/img/cover.jpg"
+  AuthorImg = "/img/avatar.jpeg"
+  DateFormat = "2006-01-02"
+  YearFormat = "2006年"
+  MonthFormat = "01-02"
+  BaiduStatsId = ""
+  QQStatsId = ""
+  Fancybox = true
 
-  cover       = "img/cover.jpg"
-  description = "Gordon Java Kotlin Python Docker Spring"
-  metaDescription = ""
-  #googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
+[Author]
+  Name = "Gordon"
 
-  twitterName = "igordonxiao"
-  linkedinName = "igordonxiao"
-  #fbName = "igordonxiao"
-  githubName = "igordonxiao"
+[Params.Share]
+  #DuoShuo = "igordonxiao"
+  Baidu = true
 
-  #logo = "hugo-logo.png"
-  #orgName = "EM"
-  #orgWebsite = "https://igordonxiao.github.io/"
-  #orgDescription = "Gordon's Blog"
+[[Menu.Main]]
+  Name = "首页"
+  Pre = "home"
+  URL = "/"
+  Weight = 1
+[[Menu.Main]]
+  Name = "关于"
+  Pre = "user"
+  URL = "/about/"
+  Weight = 7
 
-  author = "Gordon"
-  authorAvatar = "img/avatar.jpeg"
-  authorLocation = "Chengdu, China"
-  authorWebsite = "https://igordonxiao.github.io/"
-  authorDescription = "Web Developer"
+[[Params.Socials]]
+  Name = "GitHub"
+  Icon = "github"
+  URL = "https://github.com/igordonxiao/"
 
-  pageNotFoundTitle = "404 - Page not found"
-
-  #casper or caspertwo
-  singleViewStyle = "casper"
-
-[permalinks]
-  post = "/:slug/"
-
-[[menu.main]]
-  name = "主页"
-  url = "/"
-  weight = 200
-
-[[menu.main]]
-  name = "分类"
-  url = "/categories"
-  weight = 100
-
-[[menu.main]]
-  name = "标签"
-  url = "/tags"
-  weight = 99
-
-[[menu.main]]
-  name = "关于"
-  url = "/about"
-  weight = 95
+[[Params.Socials]]
+  Name = "Twitter"
+  Icon = "twitter"
+  URL = "https://twitter.com/igordonxiao"
