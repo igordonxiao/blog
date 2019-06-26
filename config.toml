@@ -1,58 +1,55 @@
-Title =  "Gordon Blog"
-LanguageCode = "zh-CN"
 BaseUrl = "https://igordonxiao.github.io/"
-Theme =  "next"
-MetaDataFormat =  "yaml"
-CanonifyUrls =  true
-BuildDrafts =  false
-PaginatePath =  "p"
-Paginate = 8
-DisablePathToLower =  false
-HasCJKLanguage = true
-PreserveTaxonomyNames = false
-UglyUrls = false
-PygmentsStyle = "monokai"
-PygmentsUseClasses = true
-DefaultContentLanguage = "zh"
+title = "BiaV的程序世界"
+languageCode = "zh-CN"
 
-[Params]
-  Introduce = "Web Developer"
-  Description = "Gordon | 博客 | 软件 | 架构 | Java | Kotlin| Python｜Spring"
-  Keywords =  "Gordon Java Kotlin Python Docker Spring"
-  Subtitle = "Dev everywhere..."
-  Imglogo = "/img/cover.jpg"
-  AuthorImg = "/img/avatar.jpeg"
-  DateFormat = "2006-01-02"
-  YearFormat = "2006年"
-  MonthFormat = "01-02"
-  BaiduStatsId = ""
-  QQStatsId = ""
-  Fancybox = true
+theme = "ezhil"
+# Enable syntax highlighting.
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-[Author]
-  Name = "Gordon"
 
-[Params.Share]
-  #DuoShuo = "igordonxiao"
-  Baidu = true
+[params]
+	# Blog subtitle which appears below blog title. Supports markdown.
+	subtitle = "&nbsp;&nbsp;&nbsp;&nbsp;静静毒代码"
+	# Number of posts to show in recent posts list (Optional). Defaults to 10.
+	recentPostsCount = 10
+	# If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
+	featherIconsCDN = true
 
-[[Menu.Main]]
-  Name = "首页"
-  Pre = "home"
-  URL = "/"
-  Weight = 1
-[[Menu.Main]]
-  Name = "关于"
-  Pre = "user"
-  URL = "/about/"
-  Weight = 7
+# Main menu which appears below site header.
+[[menu.main]]
+name = "主页"
+url = "/"
+weight = 1
 
-[[Params.Socials]]
-  Name = "GitHub"
-  Icon = "github"
-  URL = "https://github.com/igordonxiao/"
+[[menu.main]]
+name = "文章"
+url = "/posts"
+weight = 2
 
-[[Params.Socials]]
-  Name = "Twitter"
-  Icon = "twitter"
-  URL = "https://twitter.com/igordonxiao"
+[[menu.main]]
+name = "标签"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "关于"
+url = "/about"
+weight = 4
+
+# Social media links which shows up on site header.
+# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/igordonxiao"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/igordonxiao"
+
+# Enable tags.
+[taxonomies]
+   tag = "tags"
