@@ -9,8 +9,6 @@ date: "2018-03-28"
 
 > 全民K歌播放器 Build with Vue.js
 
-在线体验: [http://music.shadowof.net/](http://music.shadowof.net/)  
-
 Github: [https://github.com/igordonxiao/GG-music-FE](https://github.com/igordonxiao/GG-music-FE)
 
 ## 编译
