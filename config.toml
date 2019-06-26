@@ -11,7 +11,7 @@ pygmentscodefencesguesssyntax = true
 
 [params]
 	# Blog subtitle which appears below blog title. Supports markdown.
-	subtitle = "&nbsp;&nbsp;&nbsp;&nbsp;静静毒代码"
+	subtitle = "{静静毒代码}"
 	# Number of posts to show in recent posts list (Optional). Defaults to 10.
 	recentPostsCount = 10
 	# If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
