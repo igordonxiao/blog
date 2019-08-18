@@ -10,15 +10,14 @@ tags: [小月双拼]
 小月双拼方案是笔者根据自己的手指灵活度在小浪双拼方案上做了如下调整：
 
 1. `zh`置`V`键
-2. 将`ü`还原到`V`键上，顺应拼音思维
-3. 将`ing`置`X`键
-4. `ei`、`en`、`er`、`eng`音节均使用`e`来引导，更加自然
+2. `uang`置`C`键
+3. `ei`、`en`、`er`、`eng`音节均使用`e`引导
 
 
 
 ## 键位图
 
-![小月双拼键位图](https://raw.githubusercontent.com/igordonxiao/XiaoYue/master/%E5%B0%8F%E6%9C%88%E5%8F%8C%E6%8B%BC%E9%94%AE%E4%BD%8D%E5%9B%BE.png)
+![小月双拼键位图](https://github.com/igordonxiao/XiaoYue/blob/master/%E5%B0%8F%E6%9C%88%E5%8F%8C%E6%8B%BC%E9%94%AE%E4%BD%8D%E5%9B%BE.png)
 
 ## 搜狗输入法挂接
 
@@ -29,7 +28,7 @@ tags: [小月双拼]
 
 `Mac`系统
 
-1. 进入`/Library/Input\ Method\sogo.app/content/resources/ShuangPinSchemes`，将其中某个双拼方案的内容使用`XiaoYue.ini`文件的内容替换掉（建议使用终端操作，以免因为文件权限的原因导致修改后无法生效)
+1. 进入`/Library/Input\ Methods/SogouInput.app/Contents/Resources/ShuangPinSchemes`，将其中某个双拼方案的内容使用`XiaoYue.ini`文件的内容替换掉（建议使用终端操作，以免因为文件权限的原因导致修改后无法生效)
 2. 在搜狗输入法的`偏好设置`中选择刚才被替换掉的双拼方案
 
 ## 手机使用
