@@ -1,5 +1,5 @@
-baseURL = "/"
-title = "BiaV的程序世界"
+baseURL = "http://localhost:1313/"
+title = "Jane - A super concise theme for Hugo"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -10,7 +10,7 @@ rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
-enableGitInfo = false      # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
+enableGitInfo = true      # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 # uglyURLs = true         # more info: https://gohugo.io/content-management/urls/#ugly-urls
 
 # Highlight options.
@@ -27,12 +27,12 @@ PygmentsOptions = "linenos=table"
 #  category = "categories"
 
 # language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "zh-cn"           # Default language to use
-[languages.zh-cn]
-  languageCode = "zh-cn"
+defaultContentLanguage = "en"           # Default language to use
+[languages.en]
+  languageCode = "en"
 
 [author]                  # essential                     # 必需
-  name = "BiaV"
+  name = "xianmin"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -40,40 +40,45 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   filename = "sitemap.xml"
 
 [[menu.main]]             # config your menu              # 配置目录
-  name = "主页"
+  name = "Home"
   weight = 10
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "归档"
+  name = "Archives"
   weight = 20
   identifier = "archives"
   url = "/post/"
 [[menu.main]]
-  name = "分类"
+  name = "Tags"
   weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "标签"
-  weight = 40
-  identifier = "tags"
-  url = "/tags/"
+  name = "external-link"
+  weight = 50
+  url = "https://gohugo.io"
+
 
 [params]
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
-  since = "2015"            # Site creation time          # 站点建立时间
+  since = "2017"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Othewise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
   mainSections = ["post"]
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "BiaV"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["BiaV"]
-  description = "BiaV"
+  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["Hugo", "theme","jane"]
+  description = "Hugo theme jane example site."
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archive-paginate = 16
+  archive-paginate = 3
 
   # paginate style, default use numbered pagination links
   # if true, use original "Previous" and "Next" links.
@@ -96,8 +101,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
   bootcdn = false           # In china. @Deprecated: use [params.publicCDN]             # 是否使用bootcdn(@Deprecated: 请使用[params.publicCDN])
   mathjax = false           # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
-  #contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
-  contentCopyright = ''
+  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
   changyanAppid = ""        # Changyan app id             # 畅言
   changyanAppkey = ""       # Changyan app key
@@ -116,7 +120,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   # forkMeOnGithub = "https://github.com/xianmin/hugo-theme-jane"
 
   # add custom info on the footer.   # 添加备案信息
-  # customFooter = ""
+  # customFooter = "京ICP备10000000号-1"
 
   [params.publicCDN]        # load these files from public cdn                          # 启用公共CDN，需自行定义
     enable = false
@@ -131,7 +135,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 
   [params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = false
-    repo = ""    # The repo to store comments
+    repo = "xianmin/comments-for-hugo-theme-jane"    # The repo to store comments
     issueTerm = "pathname"
 
   [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
@@ -145,7 +149,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 
   [params.search.google]    # google custom search, see https://cse.google.com
     enable = false
-    id = ""
+    id = "002186711602136249422:q1gkomof_em"
     title = "Search"
 
   [params.reward]                                         # 文章打赏
@@ -167,28 +171,28 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   # use public git repo url to link lastmod git commit, enableGitInfo should be true.
   # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
   [params.gitInfo]
-    gitRepo = ""
-    showCommitMessage = false
+    gitRepo = "https://github.com/xianmin/hugo-theme-jane"
+    showCommitMessage = true
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:igordonxiao@gmail.com"
-    b-stack-overflow = ""
-    c-twitter = "https://twitter.com/igordonxiao"
-    d-facebook = ""
-    e-linkedin = ""
-    f-google = ""
-    g-github = "https://github.com/igordonxiao"
-    h-weibo = ""
-    i-zhihu = ""
-    j-douban = ""
-    k-pocket = ""
-    l-tumblr = ""
-    m-instagram = ""
-    n-gitlab = ""
-    o-goodreads = ""
-    p-coding = ""
-    q-bilibili = ""
-    r-codeforces = ""
+    a-email = "mailto:your@email.com"
+    b-stack-overflow = "http://localhost:1313"
+    c-twitter = "http://localhost:1313"
+    d-facebook = "http://localhost:1313"
+    e-linkedin = "http://localhost:1313"
+    f-google = "http://localhost:1313"
+    g-github = "http://localhost:1313"
+    h-weibo = "http://localhost:1313"
+    i-zhihu = "http://localhost:1313"
+    j-douban = "http://localhost:1313"
+    k-pocket = "http://localhost:1313"
+    l-tumblr = "http://localhost:1313"
+    m-instagram = "http://localhost:1313"
+    n-gitlab = "http://localhost:1313"
+    o-goodreads = "http://localhost:1313"
+    p-coding = "http://localhost:1313"
+    q-bilibili = "http://localhost:1313"
+    r-codeforces = "http://localhost:1313"
 
 # jsonfeed support
 # more information: https://github.com/xianmin/hugo-theme-jane/issues/23
@@ -207,8 +211,8 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 # multilingual support example
 # [langusges]
 # [languages.en]
-#   title = ""
+#   title = "Jane - A simple theme for Hugo"
 #   weight = 1
 # [languages.zh-cn]
-#   title = ""
+#   title = "Jane —— 一个简洁的 Hugo 主题"
 #   weight = 2
