@@ -12,7 +12,8 @@ tags: [
 ## It's just a seed yet, you have to raise it follow your own business demands.
 
 ### PROJECT RESOURCE
-[https://github.com/igordonxiao/iweb-java](https://github.com/igordonxiao/iweb-java)
+
+Github: [https://github.com/igordonxiao/iweb-java](https://github.com/igordonxiao/iweb-java)
 
 ### MAIN FRAMEWORKS
 ```

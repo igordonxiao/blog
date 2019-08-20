@@ -10,6 +10,8 @@ tags: [
 
 > This project is used to generate source code with spring boot from database.
 
+Github: [https://github.com/igordonxiao/germ](https://github.com/igordonxiao/germ)
+
 ## Feature
 * Generated standard `MAVEN` project structure
 * Generated file `pom.xml`

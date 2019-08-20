@@ -11,6 +11,8 @@ tags: [
 
 > 该程序是在[知乎答题王（小程序头脑王者）辅助工具](https://github.com/sundy-li/wechat_brain)的基础上添加了单词大师辅助功能，因此也兼容知乎答题王（小程序头脑王者），首先感谢知乎答题王（小程序头脑王者）辅助工具的作者大大。
 
+Github: [https://github.com/igordonxiao/word-master](https://github.com/igordonxiao/word-master)
+
 ## 说明
 
 + 该程序仅供娱乐

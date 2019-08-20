@@ -9,7 +9,7 @@ tags: [
 
 > A simple Data Access tool which wrapped [apache commons-dbutils](http://commons.apache.org/proper/commons-dbutils/) for PostgreSQL.
 
-[pg-dao github](https://github.com/igordonxiao/pg-dao)
+Github: [https://github.com/igordonxiao/pg-dao](https://github.com/igordonxiao/pg-dao)
 
 ## 特性
 * 支持实体ID自增长

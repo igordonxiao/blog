@@ -5,6 +5,8 @@ categories: [效率]
 tags: [小月双拼]
 ---
 
+项目地址: [https://github.com/igordonxiao/XiaoYue](https://github.com/igordonxiao/XiaoYue)
+
 ## 说明
 
 `小月双拼`方案是笔者根据自己的手指灵活度在`小浪双拼`方案上做了如下调整：

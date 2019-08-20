@@ -11,6 +11,8 @@ tags: [
 # iNote是一款开源，免费，简洁的单页博客
 > iNote是在[beego(golang语言)](http://beego.me/ `beego(golang语言)`)&[bootstrap](http://getbootstrap.com/ "bootstrap")等开源项目基础之上开发的
 
+Github: [https://github.com/igordonxiao/inote](https://github.com/igordonxiao/inote)
+
 ## 功能简介
 - 前后端完全分离
 - 响应式布局
