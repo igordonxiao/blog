@@ -5,6 +5,7 @@ install:
   - sudo dpkg -i hugo*.deb
 script:
   - hugo
+  - cd public
   - ls -l
 deploy:
   provider: pages
