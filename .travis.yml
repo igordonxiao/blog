@@ -5,6 +5,7 @@ install:
   - sudo dpkg -i hugo*.deb
 script:
   - hugo
+  - ls -l
 deploy:
   provider: pages
   skip_cleanup: true
