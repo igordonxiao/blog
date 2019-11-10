@@ -10,33 +10,34 @@ tags: [小月双拼]
 ## 说明
 
 `小月双拼`方案是笔者根据自己的手指灵活度在`小浪双拼`方案上做了如下调整：
-### 声母变化    
-1. `zh`置`V`键   
 
-### 韵母变化     
-1. `uang`置`C`键       
-2. `iang`置`C`键  
-3. `iu`置`Q` 键       
-4. `ia`置`T`键      
-5. `eng` 置`X`键         
-6. `en`置`N`键      
-7. `iao`置`M`键     
+1. `zh`置`V`键    
+2. `uang`置`C`键          
+3. `ei`、`en`、`er`、`eng`音节均使用`e`引导，`eng`的按键为`en`
 
-### 音节变化    
-1. `ei`、`en`、`er`、`eng`音节均使用`e`引导，`eng`的按键为`ex`      
+
+**重码说明：**    
+>`nen`和`niang`的按键虽然都是`nm`, 但`nen`常用的汉字只有`嫩`和`恁`，且在输入词组时智能输入法均能正确识别    
+    
+> `lai`和`lia`的按键都是`lk`，但常用的`lia`只有`俩`, `dai`和`dia`都是`dk` ，但常用的`dia`只有` 嗲`  
+
 
 
 ## 键位图
 
 ![小月双拼键位图](https://github.com/igordonxiao/XiaoYue/blob/master/%E5%B0%8F%E6%9C%88%E5%8F%8C%E6%8B%BC%E9%94%AE%E4%BD%8D%E5%9B%BE.png)
 
-## 搜狗输入法挂接    
+## 搜狗输入法挂接
 
-`Windows`系统    
+`Windows`系统
+
 1. 将`小月双拼-搜狗.ini`文件拷贝至`C:\Program Files (x86)\SogouInput\[搜狗输入法版本号]\ShuangPinSchemes`目录
 2. 进入搜狗输入法`属性设置>常用>输入习惯>双拼方案设定`，在`当前方案`列表中选择`小月双拼`确定即可
-       
-`Mac`系统    
+    
+> 为了便于换了电脑安装搜狗输入法后仍然能同步小月双拼方案，您可以将XiaoYue.ini文件放到文件夹：**C:\Users\{用户名}\AppData\LocalLow\SogouPY.users\00000001\ShuangPinSchemes**
+
+`Mac`系统
+
 1. 进入`/Library/Input\ Methods/SogouInput.app/Contents/Resources/ShuangPinSchemes`，将其中某个双拼方案的内容使用`小月双拼-搜狗.ini`文件的内容替换掉（建议使用终端操作，以免因为文件权限的原因导致修改后无法生效)
 2. 在搜狗输入法的`偏好设置`中选择刚才被替换掉的双拼方案
 
