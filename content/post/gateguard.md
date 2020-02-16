@@ -1,23 +1,53 @@
 ---
-title: "Gateguard"
-date: 2020-02-16T20:34:09+08:00
-lastmod: 2020-02-16T20:34:09+08:00
-draft: true
-keywords: []
-description: ""
-tags: []
-categories: []
-author: ""
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: false
-toc: false
-autoCollapseToc: false
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: false
-reward: false
-mathjax: false
+title: "门岗守卫"
+date: "2020-02-16"
+categories: [门岗守卫]
+tags: [
+    "Spring","Java","Vue", "uni-app"
+]
 ---
 
-<!--more-->
+## 门岗守卫
+
+门岗守卫是一套在新冠疫情期间帮助小区门岗实现二维码扫描通行的程序，避免门岗人员与居民之间传递纸质通行证而造成的交叉感染。
+
+[项目地址](https://gitee.com/igordonshaw1/gateguard)
+
+### 功能特性
+
+1. 支持小区多期管理
+2. 支持小区居民信息登记、统计
+3. 生成小区居民个人二维码
+4. 门岗工作人员信息管理（Web管理端中的用户管理）
+5. 扫描居民个人二维码获取当天出行记录（包含出入小区的方向、体温状态）
+6. 登记居民出行信息
+7. 小区居民出行流水查询
+
+
+
+### 使用流程
+
+1. 在Web管理端录入小区居民信息，并生成二维码截图给到居民；也可将二维码打印出来随身携带
+2. 通行门岗的居民手持二维码和身份证
+3. 门岗工作人员使用App扫描居民二维码获取居民信息
+4. 门岗工作人员根据扫描结果和身份证核对居民信息
+5. 门岗工作人员对居民进行体温检测和其他事项检查
+6. 填报居民出行记录并提交
+7. 门岗放行
+
+
+
+### 该套程序包含
+
+1. Web管理端
+2. App二维码扫描端 (目前只打包了Android端App，其他端可下载源码手动打包)
+3. 后端服务端
+
+
+
+### 说明
+
+1. Web管理端默认账号为`admin/admin999`
+2. Web管理端可直接使用`release/web`文件夹中的`dist.zip`部署
+3. App二维码扫描端可直接使用`release/app`文件夹中的`gateguard-1.0.0.apk`安装
+4. 开发时间有限，对于新的需求请自行下载源码开发
