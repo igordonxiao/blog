@@ -30,6 +30,12 @@ tags: [小月双拼]
 
 ![小月双拼键位图](https://github.com/igordonxiao/XiaoYue/blob/master/%E5%B0%8F%E6%9C%88%E5%8F%8C%E6%8B%BC%E9%94%AE%E4%BD%8D%E5%9B%BE.png)
 
+    
+## 影子输入法
+
+[影子输入法](https://gitee.com/orz707/Yzime)已内置了小月双拼，可直接下载使用。    
+
+
 ## 搜狗输入法挂接
 
 `Windows`系统
