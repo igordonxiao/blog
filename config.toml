@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "程序界"
+title = "小月双拼"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -32,7 +32,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   languageCode = "zh-cn"
 
 [author]                  # essential                     # 必需
-  name = "Gordon"
+  name = "小月双拼"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -68,9 +68,9 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   mainSections = ["post"]
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "编程界"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Gordon"]
-  description = "编程界"
+  logoTitle = "小月双拼"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["小月双拼"]
+  description = "小月双拼"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archive-paginate = 16
