@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "小月双拼"
+title = "Gordon的IT技术文档"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -32,7 +32,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   languageCode = "zh-cn"
 
 [author]                  # essential                     # 必需
-  name = "小月双拼"
+  name = "Gordon"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -68,9 +68,9 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   mainSections = ["post"]
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "小月双拼"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["小月双拼"]
-  description = "小月双拼"
+  logoTitle = "Gordon的IT技术文档"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["Gordon的IT技术文档"]
+  description = "Gordon的IT技术文档"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archive-paginate = 16
