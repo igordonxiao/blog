@@ -11,7 +11,7 @@ tags: [
 
 门岗守卫是一套在新冠疫情期间帮助小区门岗实现二维码扫描通行的程序，避免门岗人员与居民之间传递纸质通行证而造成的交叉感染。
 
-[项目地址](https://gitee.com/igordonshaw1/gateguard)
+[项目地址](https://gitee.com/igordonxiao/gateguard)
 
 ### 功能特性
 
